@@ -10,9 +10,7 @@ const Home = () => {
     <div className="container">
       {/* Logo at the top */}
       <img
-  src="/internlogo.png"
-  alt="Interncity Hub Logo"
-  className="logo"
+  src={`${import.meta.env.BASE_URL}internlogo.png`} alt="Interncity Hub Logo" className="logo"s
   onClick={() => setShowForm(true)} // Opens registration form on click
 />
 
